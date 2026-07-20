@@ -23,7 +23,6 @@ This final year project develops a multi-model hate speech detection system with
 - **Flask/FastAPI** - Backend API
 - **React/JavaScript** - Web application frontend
 - **Chrome Extension API** - Instagram comment highlighting
-- **Vercel** - Production web hosting
 
 ### Evaluation Tools
 - **Matplotlib/Seaborn** - Data visualization
@@ -37,14 +36,11 @@ We started with a Recurrent Neural Network baseline to establish initial perform
 #### RNN Confusion Matrix
 ![RNN Confusion Matrix](asset/rnn%20confiusion%20matrix.jpg)
 
-#### RNN Model Output Distributions
-- **Hate Speech Distribution**
+#### RNN Model Output:
   ![Hate RNN](asset/hate_rnn.jpg)
 
-- **Offensive Speech Distribution**
   ![Offensive RNN](asset/offensive_rnn.jpg)
 
-- **Neither Category Distribution**
   ![Neither RNN](asset/neither_rnn.jpg)
 
 ### Phase 2: XLM-RoBERTa Fine-tuning
@@ -84,26 +80,32 @@ Receiver Operating Characteristic curve showing **AUC = 0.95**:
 ### Chrome Extension
 Complete browser extension for real-time detection on Instagram comment sections. Highlights hate and non-hate speech with visual indicators.
 
-**[Chrome Extension Repository](https://github.com/Saad-tech1606/Hate-Speech-Detection)** - Access all chrome extension related files, implementation details, and deployment instructions.
 
-## 📁 Data & Resources
+## 🔗 Data & Resources & Project Links
 
 ### Dataset
-- **[Database Link](https://drive.google.com/drive/folders/1JYIjLDJ1e4aW6uBEA3n111VOKdozelj1?usp=sharing)** - Complete training and evaluation datasets
+- 📊 **[Dataset 1](https://drive.google.com/file/d/1geYLAXKUdg9IVX8kmbuRU2dd-NeO3DTL/view?usp=sharing)**
+- 📊 **[Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)**
 
 ### Data Cleaning Process
-- **[Kaggle Data Cleaning Notebook](https://www.kaggle.com/code/fatimarizvi2/data-cleaning)** - Detailed data preprocessing and feature engineering pipeline
+- **[Data Extraction](https://www.kaggle.com/code/fatimarizvi2/data-cleaning)** - Detailed data preprocessing
 
-### Live Deployment
-- **[Web Application](https://safespeak-sepia.vercel.app/)** - Live demo of the hate speech detection system
+### Model Training
+- **[RNN]()**
+- **[XLM Roberta]()**
+  
+### Chrome Extention
+- 🔧 **[Chrome Extension Link]**
+
 
 ## 👥 Contributors
 
 This project was developed by a team of 4 contributors:
 
-- **Fatima Zafarrizvi** - Lead Developer & ML Engineer
-- **Saad Ahmed** - Chrome Extension & Frontend Development
-- **Team Members** - Data annotation, testing, and documentation
+- **Fatima Zafar Rizvi** - Project Research, rnn & XLM Model Training
+- **Saad Alam** - Project Research, Chrome Extension & XLM Model Training
+- **Harsh Sharma** - Chrome Extension & Data Preprocessing and Cleaning
+- **Sneha Singh** - Testing, and Documentation
 
 ## 🚀 Features
 
@@ -132,18 +134,8 @@ This project was developed by a team of 4 contributors:
    - Use the web application for text classification
 
 2. **Chrome Extension**
-   - Install from the [Chrome Extension Repository](https://github.com/Saad-tech1606/Hate-Speech-Detection)
    - Automatically highlights hate/non-hate speech on Instagram
 
-3. **Online Demo**
-   - Visit [SafeSpeak](https://safespeak-sepia.vercel.app/) for instant classification
-
-## 🔗 Project Links
-
-- 🌐 **[Live Web App](https://safespeak-sepia.vercel.app/)**
-- 📊 **[Dataset](https://drive.google.com/drive/folders/1JYIjLDJ1e4aW6uBEA3n111VOKdozelj1?usp=sharing)**
-- 🔧 **[Chrome Extension Code](https://github.com/Saad-tech1606/Hate-Speech-Detection)**
-- 🧹 **[Data Cleaning Notebook](https://www.kaggle.com/code/fatimarizvi2/data-cleaning)**
 
 ## 📝 License
 
