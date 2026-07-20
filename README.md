@@ -88,14 +88,14 @@ Complete browser extension for real-time detection on Instagram comment sections
 - 📊 **[Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)**
 
 ### Data Cleaning Process
-- **[Data Extraction](https://www.kaggle.com/code/fatimarizvi2/data-cleaning)** - Detailed data preprocessing
+- **[Data Extraction](https://github.com/fatimazafarrizvi/Hate-Speech-Detection-System/blob/de4baea79d6f2b79eda16f4c0cb32693b466ed01/Data_Extraction.ipynb)** 
 
 ### Model Training
-- **[RNN]()**
-- **[XLM Roberta]()**
+- **[RNN](https://github.com/fatimazafarrizvi/Hate-Speech-Detection-System/blob/de4baea79d6f2b79eda16f4c0cb32693b466ed01/rnn_hate_speech_model.ipynb)**
+- **[XLM Roberta](https://github.com/fatimazafarrizvi/Hate-Speech-Detection-System/blob/de4baea79d6f2b79eda16f4c0cb32693b466ed01/A_New_Exp.ipynb)**
   
 ### Chrome Extention
-- 🔧 **[Chrome Extension Link]**
+- 🔧 **[Chrome Extension Link]()**
 
 
 ## 👥 Contributors
