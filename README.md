@@ -102,7 +102,7 @@ Complete browser extension for real-time detection on Instagram comment sections
 
 This project was developed by a team of 4 contributors:
 
-- **Fatima Zafar Rizvi** - Project Research, rnn & XLM Model Training
+- **Fatima Zafar Rizvi** - Project Research, RNN & XLM Model Training
 - **Saad Alam** - Project Research, Chrome Extension & XLM Model Training
 - **Harsh Sharma** - Chrome Extension & Data Preprocessing and Cleaning
 - **Sneha Singh** - Testing, and Documentation
