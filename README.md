@@ -95,8 +95,11 @@ Complete browser extension for real-time detection on Instagram comment sections
 - **[XLM Roberta](https://github.com/fatimazafarrizvi/Hate-Speech-Detection-System/blob/de4baea79d6f2b79eda16f4c0cb32693b466ed01/A_New_Exp.ipynb)**
   
 ### Chrome Extention
-- 🔧 **[Chrome Extension Link]()**
+- **[Chrome Extension Link]()**
 
+### Documentation
+- **[PRD](https://drive.google.com/file/d/1CWCGiBUEmQ70qSHHscOis42_h2wvkJYT/view?usp=sharing)**
+- **[PPT]()**
 
 ## 👥 Contributors
 
