@@ -33,9 +33,9 @@ This project fine-tunes **XLM-RoBERTa**, a multilingual transformer model, to cl
 
 <div align="center">
 
-<img src="asset/XLM-Roberta_architecture.jpg" alt="XLM-Roberta_architecture" width="70%"/>
-
 # 🛡️ XLM-Roberta Architecture
+
+<img src="asset1/XLM Roberta Model architecture.png" alt="XLM-Roberta_architecture" width="90%"/>
 
 </div>
 
@@ -119,6 +119,14 @@ Hate-Speech-Detection-System/
 └── scripts/                    # Icon generation utilities
 ```
 
+<div align="center">
+
+# 🛡️ ML Architecture of Project
+
+<img src="asset1/ML architecture fy proj.png" alt="ML_architecture" width="90%"/>
+
+</div>
+
 ## 🧠 Model & Data
 
 - **Base model:** `xlm-roberta-base` fine-tuned for binary sequence classification (`Non-Hate` / `Hate`)
@@ -139,7 +147,18 @@ Hate-Speech-Detection-System/
 | F1-Score | 86% | **89.4%** | +3.4% |
 | ROC-AUC | — | **0.9731** | — |
 
+<div align="center">
+
+# 🛡️ From RNN to XLM-Roberta 
+
+<img src="asset1/rnn to xlm.png" alt="rnn to xlm" width="90%"/>
+
+</div>
+
 The RNN struggled with long-range dependencies, sequential processing speed, and multilingual/contextual nuance — which is why the project moved to a transformer-based architecture (`FROM RNN TO XLM-RoBERTa` in `docs/`). The final XLM-RoBERTa model shows higher precision, recall, and F1, better generalization, and minimal overfitting.
+
+
+# 📊 XLM-Roberta Model Valuation Graphs
 
 <table>
 <tr>
