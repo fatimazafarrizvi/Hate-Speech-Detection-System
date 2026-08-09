@@ -18,18 +18,26 @@
 
 ## 👥 Team
 
-Developed as a final-year project (**GR-37**) at **Techno Main Salt Lake**, under the guidance of **Manashi De**.
+Developed as a final-year project at **Techno Main Salt Lake**.
 
-| Name | Roll No. |
+| Name | Role |
 |---|---|
-| Harsh Sharma | 16500122043 |
-| MD Saad Alam | 16500122049 |
-| Fatima Zafar Rizvi | 16500122051 |
-| Sneha Singh | 16500122061 |
+|Fatima Zafar Rizvi | Research, RNN and XLM-RoBERTa Model Training |
+| MD Saad Alam | Research, XLM-RoBERTa Model and Chrome Extension Development |
+| Harsh Sharma | Chrome Extension Development and Documentation |
+| Sneha Singh | Documentation and Presentation |
 
 ## 📖 Overview
 
 This project fine-tunes **XLM-RoBERTa**, a multilingual transformer model, to classify text as **Hate** or **Non-Hate** speech, and ships that model as a working end-to-end product rather than just a notebook.
+
+<div align="center">
+
+<img src="asset/XLM-Roberta_architecture.jpg" alt="XLM-Roberta_architecture" width="70%"/>
+
+# 🛡️ XLM-Roberta Architecture
+
+</div>
 
 A local **FastAPI** server loads the trained model and exposes a prediction endpoint, and a **Chrome extension (Manifest V3)** talks to that server to:
 
